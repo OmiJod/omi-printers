@@ -16,4 +16,7 @@ files {
     'html/*.png',
 }
 
+dependencies { 'qb-target' }
+  
+
 lua54 'yes'
