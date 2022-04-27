@@ -1,5 +1,6 @@
 # qb-printer
-This Is a Forked Script and The Original One You can Find it in qb-core's Repo | This Script Contains Qb-target and No More Use /spawnprinter or /useprinter  | Only Selected Jobs Can Use Printer | In This Police / cardealer / Realestate and EMS Has The boxzones OfC You can Add More 
+This Is a Forked Script and The Original One You can Find it in qb-core's Repo | This Script Contains Qb-target and No More Use /spawnprinter or /useprinter  | Only Selected Jobs Can Use Printer | In This Police / cardealer / Realestate and EMS Has The boxzones OfC You can Add More  QBCore QBCore
+
 
 
 * ATTENTION: To have this working correctly you MUST change shared.lua as follows: `Search for "printerdocument" and make ["unique"] = true` otherwise documents WILL STACK and You'll be able to see only latest.
