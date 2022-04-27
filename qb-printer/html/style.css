@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.paper-container {
+    display: none;
+    position: absolute;
+    width: 55vh;
+    height: 85vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.paper-container>img {
+    position: absolute;
+    max-width: 200%;
+    max-height: 200%;
+    border: 8px dashed rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+}
+
+.printerbox-container {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100vh;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.603);
+    border-style: inset;
+    border: 6px solid rgb(255, 255, 255);
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: .2vh;
+    overflow: hidden;
+}
+
+.printerbox-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    border-bottom: 6px solid rgb(253, 253, 253);
+    background-color: rgb(255, 102, 0);
+}
+
+.header-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.5vh;
+    margin: .75vh;
+}
+
+.printerboxurl-input {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    border-style: inset;
+    transform: translateY(-50%);
+    width: 40vh;
+    height: 4.5vh;
+    color: white;
+    font-weight: bolder;
+    border: 3px solid rgb(247, 247, 247);
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s ease-in-out;
+    border-bottom: .4vh solid rgba(0, 128, 0, 0);
+}
+
+.printerboxurl-input:focus {
+    border-bottom: .4vh solid orange;
+}
+
+.printerboxurl-input:valid {
+    /* border-radius: 1.5vh 1.5vh 0 0; */
+    border-bottom: .4vh solid green;
+}
+
+.printerbox-accept {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 18vh;
+    height: 7vh;
+    background-color: rgba(72, 255, 0, 0.575);
+    font-size: 1cm;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 5px solid rgb(72, 255, 0);
+    margin: 5vh;
+    left: 10%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 7vh;
+}
+
+.printerbox-decline {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 18vh;
+    height: 7vh;
+    font-size: 1cm;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-size: 1cm; */
+    background-color: rgb(255, 0, 0, 0.575);
+    border: 5px solid rgb(255, 0, 0);
+    font-weight: bolder;
+    margin: 5vh;
+    right: 10%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 7vh;
+}
+
+ ::placeholder {
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bolder;
+}
