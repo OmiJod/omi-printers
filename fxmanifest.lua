@@ -4,7 +4,7 @@ game 'gta5'
 
 lua54 'yes'
 
-version '1.0.0'
+version '2.0.0'
 
 author 'Nullvalue#6848'
 
