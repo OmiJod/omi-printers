@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.paper-container {
+    display: none;
+    position: absolute;
+    width: 55vh;
+    height: 85vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.paper-container>img {
+    position: absolute;
+    max-width: 200%;
+    max-height: 200%;
+    border: 8px dashed rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+}
+
+.printerbox-container {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60vh;
+    height: 25vh;
+    background-color: rgba(0, 0, 0, 0.774);
+    border-style: inset;
+    border-radius: 2vh;
+    border: 1.5px solid rgb(240, 240, 240);
+    margin: 0 auto;
+    left: 50%;
+    right: 0;
+    overflow: hidden;
+}
+
+/* .printerbox-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor:not-allowed;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(45, 108, 190);
+} */
+
+/* .header-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.5vh;
+    margin: .75vh;
+} */
+
+.printerboxurl-input {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 35%;
+    /* border-style: inset; */
+    transform: translateY(-50%);
+    width: 40vh;
+    height: 4.5vh;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 2vh;
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s ease-in-out;
+}
+
+.printerboxurl-input:focus {
+    border: .4vh solid rgb(55, 126, 192);
+}
+
+.printerboxurl-input:valid {
+    /* border-radius: 1.5vh 1.5vh 0 0; */
+    border: .4vh solid rgb(9, 150, 143);
+}
+
+.printerbox-accept {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 15vh;
+    height: 5vh;
+    background-color: rgba(34, 221, 118, 0.842);
+    font-size: 0.5cm;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid rgb(202, 202, 202);
+    border-radius: 2vh;
+    margin: 5vh;
+    left: 10%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 5vh;
+}
+
+.printerbox-decline {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15vh;
+    height: 5vh;
+    font-size: 0.5cm;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-size: 1cm; */
+    background-color: rgb(255, 0, 0, 0.575);
+    border: 2px solid rgb(202, 202, 202);
+    border-radius: 2vh;
+    font-weight: bolder;
+    margin: 5vh;
+    right: 10%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 5vh;
+}
+
+.button-text {
+    display: inline-block;
+}
+
+ ::placeholder {
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bolder;
+}
