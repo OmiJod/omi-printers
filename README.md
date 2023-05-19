@@ -1,4 +1,6 @@
-#Moon Better Printers
+# Moon Better Printers
+
+Replace the Folder Completely and dont change name of the resource it should be "moon-printers" only
 
 Welcome to Moon Better Printers 
 This script makes your qbcore server more and more happening and gives the whitelisted job rp players to extend there roleplay
